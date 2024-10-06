@@ -84,8 +84,11 @@ public class ArraysUse {
         System.out.println(Arrays.toString(copiaPares));
 
         // Hacer una copia con mas elementos.
-        int copiaPares2[] = Arrays.copyOf(copiaPares, 3);
+        int copiaPares2[] = Arrays.copyOf(copiaPares, copiaPares.length);
         System.out.println(Arrays.toString(copiaPares2));
+
+        // COMPARAR DOS ARRAYS
+        System.out.println(Arrays.equals(copiaPares, copiaPares2));
 
 
 
